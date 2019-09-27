@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xiaosw.http">
+
+    <application>
+        <provider android:authorities="com.xiaosw.http.internal.HttpInitProvider"
+            android:name=".internal.HttpInitProvider"/>
+    </application>
+
+</manifest>
